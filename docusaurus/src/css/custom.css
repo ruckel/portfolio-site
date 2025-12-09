@@ -38,19 +38,21 @@ nav.navbar {
   width: 100%;
   height: var(--ifm-navbar-height);*/
 }
-main { 
+main {
   padding-top: 6em;
   padding-bottom: calc(var(--ifm-navbar-height) + 1em) !important;
 }
 .contact-section { padding-top: 1rem; }
-.multi-col-list {
-    list-style-type: none;
-    width: 33%;
-}
 ul {
     margin-block-start: -0.7em;
 }
 ul.menu__list {
     margin-block-start: 1em;
 }
-.full-width { width: 100%; display: flex; }
+@media (device-width > 500px) {
+  .multi-col-list {
+      list-style-type: none;
+      width: 33%;
+  }
+  .full-width { width: 100%; display: flex; }
+}
