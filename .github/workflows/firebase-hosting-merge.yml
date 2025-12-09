@@ -1,0 +1,48 @@
+name: Deploy to Firebase Hosting on push to master
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    env:
+      FIREBASE_API_KEY: ${{ vars.FIREBASE_API_KEY }}
+      FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
+      #FIREBASE_AUTH_DOMAIN: ${{ vars.FIREBASE_AUTH_DOMAIN }}
+      #FIREBASE_STORAGE_BUCKET: ${{ vars.FIREBASE_STORAGE_BUCKET }}
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: Write to .env file
+        run: |
+          echo "VITE_FIREBASE_API_KEY=$FIREBASE_API_KEY" >> .env
+          echo "VITE_FIREBASE_PROJECT_ID=$FIREBASE_PROJECT_ID" >> .env
+
+      - name: Create .firebaserc
+        run: |
+          cat > .firebaserc <<EOF
+          {
+            "projects": {
+              "dev": "${FIREBASE_PROJECT_ID}",
+              "default": "${FIREBASE_PROJECT_ID}"
+            },
+          "targets": {},
+          "etags": {}
+          }
+          EOF
+
+      - name: clean install
+        run: npm ci --verbose
+      - name: build
+        run: npm run build --verbose
+
+      - name: Deploy to Firebase hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
+          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
