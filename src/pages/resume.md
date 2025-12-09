@@ -95,7 +95,7 @@ Interested in Infrastructure as Code, declarative systems, small-team engineerin
 ## Experience
 
 **System Developer - Infid AB** · 
-_May 2024 - Present_  
+_September 2023 - Present_  
 
 - Lead developer for React + Firebase applications deployed through GitHub Actions.
 - Built and maintain CI/CD pipelines covering automated builds, tests, previews, and production deployments.
