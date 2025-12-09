@@ -1,10 +1,11 @@
 {
   "defaultLocale": "en",
   "locales": [
-    "en"
+    "en",
+    "sv"
   ],
   "path": "i18n",
-  "currentLocale": "en",
+  "currentLocale": "sv",
   "localeConfigs": {
     "en": {
       "label": "English",
@@ -15,6 +16,16 @@
       "translate": false,
       "url": "https://kevindybeck.com",
       "baseUrl": "/"
+    },
+    "sv": {
+      "label": "Svenska",
+      "direction": "ltr",
+      "htmlLang": "sv",
+      "calendar": "gregory",
+      "path": "sv",
+      "translate": true,
+      "url": "https://kevindybeck.com",
+      "baseUrl": "/sv/"
     }
   }
 }

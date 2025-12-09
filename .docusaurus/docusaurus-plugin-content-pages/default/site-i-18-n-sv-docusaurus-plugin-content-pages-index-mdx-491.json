@@ -1,0 +1,15 @@
+{
+  "type": "mdx",
+  "permalink": "/sv/",
+  "source": "@site/i18n/sv/docusaurus-plugin-content-pages/index.mdx",
+  "title": "Kevin Dybeck",
+  "description": "DevOps-orienterad full stack-utvecklare",
+  "frontMatter": {
+    "title": "Kevin Dybeck",
+    "description": "DevOps-orienterad full stack-utvecklare",
+    "keywords": [
+      "portfolio"
+    ]
+  },
+  "unlisted": false
+}

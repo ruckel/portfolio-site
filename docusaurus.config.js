@@ -20,7 +20,7 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'sv'],
   },
 
   presets: [
@@ -80,6 +80,7 @@ const config = {
             label: 'Tutorial',
           },*/
           {to: '/resume', label: 'Resumé', position: 'left'},
+          //{type: 'localeDropdown', position: 'right'},
           {
             href: 'mailto:kevindybeck@yahoo.com',
             label: 'Email',

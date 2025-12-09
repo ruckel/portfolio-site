@@ -8,12 +8,13 @@ export default {
   "tagline": "System developer",
   "favicon": "img/favicon.ico",
   "url": "https://kevindybeck.com",
-  "baseUrl": "/",
+  "baseUrl": "/sv/",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "sv"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -50,7 +51,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "emailto:kevindybeck@yahoo.com",
+          "href": "mailto:kevindybeck@yahoo.com",
           "label": "Email",
           "position": "right"
         },

@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Home Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Resumé": {
+    "message": "Resumé",
+    "description": "Navbar item with label Resumé"
+  },
+  "item.label.Email": {
+    "message": "Email",
+    "description": "Navbar item with label Email"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "Navbar item with label LinkedIn"
+  }
+}

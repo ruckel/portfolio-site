@@ -1,0 +1,13 @@
+{
+  "type": "mdx",
+  "permalink": "/sv/resume",
+  "source": "@site/i18n/sv/docusaurus-plugin-content-pages/resume.md",
+  "title": "Kevin Dybeck | Resumé",
+  "description": "Developer focused on DevOps, backend, and maintainable full-stack systems",
+  "frontMatter": {
+    "title": "Kevin Dybeck | Resumé",
+    "description": "Developer focused on DevOps, backend, and maintainable full-stack systems",
+    "toc_max_heading_level": 2
+  },
+  "unlisted": false
+}

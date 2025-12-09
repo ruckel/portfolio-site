@@ -1,18 +1,18 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/sv/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/sv/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "index",
-              "path": "/docs/",
+              "path": "/sv/docs/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -20,7 +20,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/",
+                "path": "/sv/docs/",
                 "label": "index"
               }
             }
