@@ -28,8 +28,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: { sidebarPath: './sidebars.js', },
+        docs: false, // { sidebarPath: './sidebars.js', },
         theme: { customCss: './src/css/custom.css' },
+        blog: false,
                 /*blog: {
           showReadingTime: true,
           feedOptions: {
