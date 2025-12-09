@@ -1,3 +1,8 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "dist/"
+  ]
 }
