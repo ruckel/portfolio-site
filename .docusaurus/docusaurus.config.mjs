@@ -8,7 +8,7 @@ export default {
   "tagline": "System developer",
   "favicon": "img/favicon.ico",
   "url": "https://kevindybeck.com",
-  "baseUrl": "/sv/",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -23,12 +23,11 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.js"
-        },
+        "docs": false,
         "theme": {
           "customCss": "./src/css/custom.css"
-        }
+        },
+        "blog": false
       }
     ]
   ],

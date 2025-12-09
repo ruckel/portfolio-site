@@ -1,9 +1,9 @@
 {
-  "permalink": "/blog/welcome",
-  "source": "@site/blog/welcome/index.md",
-  "title": "Welcome",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
-  "date": "2025-12-09T19:24:09.000Z",
+  "permalink": "/blog/mdx-blog-post",
+  "source": "@site/blog/mdx-blog-post.mdx",
+  "title": "MDX Blog Post",
+  "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+  "date": "2025-12-09T22:13:25.319Z",
   "tags": [
     {
       "inline": false,
@@ -12,7 +12,7 @@
       "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 0.56,
+  "readingTime": 0.27,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -31,8 +31,8 @@
     }
   ],
   "frontMatter": {
-    "slug": "welcome",
-    "title": "Welcome",
+    "slug": "mdx-blog-post",
+    "title": "MDX Blog Post",
     "authors": [
       "ruckel"
     ],
@@ -41,7 +41,7 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
+  "nextItem": {
     "title": "Blog",
     "permalink": "/blog/blog"
   }

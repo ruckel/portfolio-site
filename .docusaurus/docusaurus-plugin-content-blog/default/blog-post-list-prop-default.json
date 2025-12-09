@@ -2,28 +2,22 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/sv/blog/welcome",
+      "title": "Blog",
+      "permalink": "/blog/blog",
       "unlisted": false,
-      "date": "2025-12-09T19:24:09.000Z"
+      "date": "2025-12-09T00:00:00.000Z"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/sv/blog/mdx-blog-post",
+      "permalink": "/blog/mdx-blog-post",
       "unlisted": false,
-      "date": "2021-08-01T00:00:00.000Z"
+      "date": "2025-12-09T00:00:00.000Z"
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/sv/blog/long-blog-post",
+      "title": "Welcome",
+      "permalink": "/blog/welcome",
       "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/sv/blog/first-blog-post",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
+      "date": "2025-09-11T00:00:00.000Z"
     }
   ]
 }

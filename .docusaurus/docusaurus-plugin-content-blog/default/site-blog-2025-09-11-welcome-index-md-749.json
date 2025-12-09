@@ -1,9 +1,9 @@
 {
   "permalink": "/blog/welcome",
-  "source": "@site/blog/welcome/index.md",
+  "source": "@site/blog/2025-09-11welcome/index.md",
   "title": "Welcome",
   "description": "Docusaurus blogging features are powered by the blog plugin.",
-  "date": "2025-12-09T19:24:09.000Z",
+  "date": "2025-09-11T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
