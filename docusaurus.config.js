@@ -81,7 +81,7 @@ const config = {
           },*/
           {to: '/resume', label: 'Resumé', position: 'left'},
           {
-            href: 'emailto:kevindybeck@yahoo.com',
+            href: 'mailto:kevindybeck@yahoo.com',
             label: 'Email',
             position: 'right',
           },
