@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/resume',
-    component: ComponentCreator('/resume', 'fe3'),
+    component: ComponentCreator('/resume', 'bf5'),
     exact: true
   },
   {
