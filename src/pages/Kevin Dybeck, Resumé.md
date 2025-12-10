@@ -2,6 +2,7 @@
 title: Kevin Dybeck | Resumé
 description: Developer focused on DevOps, backend, and maintainable full-stack systems
 toc_max_heading_level: 2
+slug: resume
 ---
 # Kevin Dybeck
 Developer focused on DevOps, backend, and maintainable full-stack systems with a
